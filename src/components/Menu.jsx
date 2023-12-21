@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './sass/main.sass';
+import { Container, Row, Col } from 'reactstrap';
 
 function Menu() {
     const [dat, setDat] = useState([]);
@@ -16,18 +17,22 @@ function Menu() {
     }, []);
 
     return (
-        <div>
-            <ul>
-
-
-                {dat.map(item => (
-                    <li>
-                        <span>{item.nome}</span>
-                        <img src={item.urlFoto} />
-                        <span>{item.siglaPartido}</span>
-                    </li>
-                ))}
-            </ul>
+        <div className='main'>
+            <Container>
+                <Row>
+                    <Col lg='12' md='12' sm='12'>
+                        <ul>
+                            {dat.map(item => (
+                                <li>
+                                    <span>{item.nome}</span>
+                                    <img src={item.urlFoto} />
+                                    <span>{item.siglaPartido}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }
