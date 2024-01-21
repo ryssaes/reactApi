@@ -9,10 +9,6 @@ Um projeto que utiliza a API dos Deputados para fornecer informações sobre leg
 
 O Projeto API dos Deputados é uma aplicação web que consome a API da Câmara dos Deputados do Brasil para oferecer informações atualizadas sobre os deputados federais. Através dessa aplicação, os usuários podem obter detalhes sobre os representantes, como suas atividades, gastos, e votações.
 
-## 📷 Preview do Projeto
-
-![Captura de Tela](https://i.imgur.com/C:\Users\ryssa\OneDrive\Imagens\Capturasdetela\Capturadetela2024-01-21004542.png)
-
 ## 🛠️ Technologies
 - 🌐 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 - ⚛️ ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
